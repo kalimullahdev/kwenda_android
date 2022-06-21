@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "349319586237",
+    "project_id": "optimyze-297515",
+    "storage_bucket": "optimyze-297515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349319586237:android:55331ac6cedaa84bb472d4",
+        "android_client_info": {
+          "package_name": "com.kwendaapp.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349319586237-rr5j25hf1lel96hrk4rfa6bvprklnh5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-2lGnBCBmIrf825gqPgiP_cY6dr4rtms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349319586237-rr5j25hf1lel96hrk4rfa6bvprklnh5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349319586237:android:a3527881d8e2e47cb472d4",
+        "android_client_info": {
+          "package_name": "com.kwendaapp.rideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349319586237-rr5j25hf1lel96hrk4rfa6bvprklnh5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-2lGnBCBmIrf825gqPgiP_cY6dr4rtms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349319586237-rr5j25hf1lel96hrk4rfa6bvprklnh5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

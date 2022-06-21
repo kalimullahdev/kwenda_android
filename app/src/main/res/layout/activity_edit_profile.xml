@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/text_color_white"
+    tools:context="com.kwendaapp.rideo.Activities.EditProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:elevation="@dimen/_10sdp"
+        android:background="@color/text_color_white">
+
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:layout_weight="0.10"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:src="@drawable/back_drawable" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.80"
+            android:gravity="center_vertical"
+            android:text="@string/edit_profile"
+            android:textColor="@color/black_text_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_margin="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    app:civ_circle_background_color="@color/grey_20"
+                    android:src="@drawable/ic_dummy_user"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10dp" />
+
+                <ImageView
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/edit_profile"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_add_box_black_24dp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:background="@drawable/edittext_background_asset"
+                    android:paddingStart="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/first_name"
+                    android:drawableStart="@drawable/people"
+                    android:drawablePadding="20dp"
+                    android:inputType="textPersonName"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:hint="@string/first_name"
+                    android:layout_weight="0.50"
+                    tools:ignore="RtlSymmetry" />
+
+                <EditText
+                    android:background="@drawable/edittext_background_asset"
+                    android:paddingStart="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/last_name"
+                    android:inputType="textPersonName"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:hint="@string/last_name"
+                    android:layout_weight="0.40"
+                    tools:ignore="RtlSymmetry" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:background="@drawable/edittext_background_asset"
+                    android:paddingStart="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:drawablePadding="15dp"
+                    android:id="@+id/email"
+                    android:enabled="false"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:hint="@string/email"
+                    android:layout_weight="0.90"
+                    tools:ignore="RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:background="@drawable/edittext_background_asset"
+                    android:paddingStart="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/mobile_no"
+                    android:drawableStart="@drawable/ic_baseline_local_phone_24"
+                    android:drawablePadding="15dp"
+                    android:inputType="phone"
+                    android:enabled="false"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:hint="@string/phone_number"
+                    android:layout_weight="0.90"
+                    tools:ignore="RtlSymmetry" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <com.kwendaapp.rideo.Utils.MyButton
+                android:id="@+id/saveBTN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_button"
+                android:textAllCaps="false"
+                android:text="@string/save_profile"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/changePasswordTxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="@string/change_password"
+                android:textColor="@color/grey_60"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

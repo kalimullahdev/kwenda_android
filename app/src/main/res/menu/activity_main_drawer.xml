@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp8">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_new_color_home"
+            android:actionMenuTextColor="@color/colorAccent" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:title="@string/action_wallet"
+            android:icon="@drawable/ic_new_color_wallet"
+            android:actionMenuTextColor="@color/colorAccent" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_payments"
+            android:title="@string/payment"
+            android:icon="@drawable/ic_new_color_payments"
+            android:actionMenuTextColor="@color/colorAccent" />
+
+        <item
+            android:id="@+id/nav_yourtrips"
+            android:title="@string/rides"
+            android:icon="@drawable/ic_new_color_pasthistory"
+            android:actionMenuTextColor="@color/colorAccent" />
+        <item
+            android:id="@+id/nav_upcoming"
+            android:title="@string/ongoings"
+            android:icon="@drawable/ic_new_color_ongoing"
+            android:actionMenuTextColor="@color/colorAccent" />
+        <item
+            android:id="@+id/nav_history"
+            android:title="@string/history"
+            android:icon="@drawable/ic_new_color_history"
+            android:actionMenuTextColor="@color/colorAccent" />
+        <item
+            android:id="@+id/nav_City"
+            android:actionMenuTextColor="@color/colorAccent"
+            android:icon="@drawable/ic_city"
+            android:title="@string/city" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="@string/support"
+            android:icon="@drawable/ic_new_color_support"
+            android:actionMenuTextColor="@color/colorAccent" />
+        <item
+            android:id="@+id/settings"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_new_color_settings"
+            android:actionMenuTextColor="@color/colorAccent" />
+    </group>
+
+</menu>

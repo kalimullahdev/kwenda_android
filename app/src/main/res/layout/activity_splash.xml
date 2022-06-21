@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffa500"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.kwendaapp.rideo.Activities.SplashScreen">
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="142dp"
+        android:layout_gravity="center"
+        android:src="@drawable/circle_logo_small" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/flag" />
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/developed" />
+</LinearLayout>
